@@ -1,38 +1,86 @@
-.App {
+.navbar{
+  text-decoration: none;
+  
+  color: rgb(112, 111, 111);
+ margin: 0px 10px;
+}
+.navbar:hover{
+  text-decoration: none;
+}
+.drop{
+  text-decoration: none;
+}
+.drop:hover{
+  text-decoration: none;
+}
+.close{
+margin-left: 30px;
+
+
+}
+
+
+/* text editor*/
+.rs-picker-default .rs-picker-toggle.rs-btn {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 282px;
+}
+
+/* picked date align */
+.rs-picker-default .rs-picker-toggle {
+  position: relative;
+  z-index: 5;
+  padding-right: 67px;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  color: #575757;
+  border: 1px solid #e5e5ea;
+  padding-left: 44px;
+}
+/* calander align */
+.rs-picker-toggle-caret {
+  display: inline-block;
+  margin-right: 240px;
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-weight: normal;
+  color: #8e8e93;
+}
+
+/* ok button style */
+.rs-picker-toolbar-right-btn-ok { 
+  text-align: center; 
+  cursor: pointer;
+  outline: 0 ; 
+  border: none; 
+  padding: 8px 12px; 
+  font-size: 14px; 
+  border-radius: 30px;
+  color: #fff;
+  background-color: #3498ff;
+  width: 100px;
+}
+
+/* range style */
+.rs-picker-menu .rs-calendar .rs-calendar-table-cell-content {
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 21px;
+  display: inline-block;
+}
+.dates{
+ 
   text-align: center;
+  display: grid;
+  place-items: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.date{
+  margin-top: 5%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home{
+  display: grid;
+  place-items: center;
 }
